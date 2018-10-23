@@ -111,3 +111,4 @@ ENV/
 *.mp4
 
 *.csv
+.DS_Store

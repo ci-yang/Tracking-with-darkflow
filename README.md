@@ -16,7 +16,13 @@
 
 #### Step1
 
-Clone 我 Fork 下來並修改的檔案
+Clone 我 Fork 下來並修改的檔案，請使用我的分支
+
+```bash
+$ git clone --single-branch -b FixDarkflow https://github.com/ci-yang/Tracking-with-darkflow.git
+```
+
+
 
 
 
@@ -49,6 +55,27 @@ $ pip install .
 ```
 
 2. 
+3. 
+
+
+
+#### Step2 Deep Sort
+
+1. cd deep_sort 資料夾後到以下網址下載
+
+
+
+
+
+#### Step  根目錄
+
+1. 在 Tracking-with-darkflow 根目錄底下新增 cfg 檔案夾並將 coco.names 放入其中，裡面的內容為對應 cfg 的類別標籤
+
+```
+
+```
+
+2. .cfg 檔案放置其中並命名為 yolo.cfg
 3. 
 
 
